@@ -1,0 +1,42 @@
+h3
+{
+    font-size: 25px !important ;
+}
+
+.btn-success:hover
+{
+  background-color: blueviolet;
+}
+
+.btn-danger:hover
+{
+  background-color: chocolate;
+}
+
+.btn-primary:hover
+{
+  background-color: chartreuse;
+}
+
+.btn-success:hover
+{
+  background-color: cyan;
+}
+
+.btn-info:click
+{
+    background-color: black;
+}
+
+canvas {
+    margin-top:80px;
+    border: 2px red;
+    animation-name: changing_colours;
+    animation-duration: 3.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes changing_colours {
+    from{ box-shadow:2px 2px 20px maroon ;}
+    to{ box-shadow:2px 2px 20px violet ;}
+}
